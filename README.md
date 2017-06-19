@@ -55,8 +55,8 @@ dependencies {
 }
 ```
 
-## credit to
--https://github.com/AzimoLabs/AndroidKeyboardWatcher
+## Thanks to
+-https://github.com/AzimoLabs
 
 ## License
 
