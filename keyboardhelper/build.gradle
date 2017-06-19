@@ -1,19 +1,19 @@
 apply plugin: 'com.android.library'
 
 ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'keyboard-helper'
+    bintrayRepo = 'keyboardhelper'
+    bintrayName = 'keyboardhelper'
 
-    publishedGroupId = 'com.github.imjaspreet'
-    libraryName = 'KeyboardHelper'
-    artifact = 'keyboard-helper'
+    publishedGroupId = 'com.github.imjaspreet.keyboardhelper'
+    libraryName = 'keyboardhelper'
+    artifact = 'keyboardhelper'
 
     libraryDescription = 'Software keyboard open/close helper for Android.'
 
-    siteUrl = 'https://github.com/imjaspreet/KeyboardHelper'
-    gitUrl = 'https://github.com/imjaspreet/KeyboardHelper.git'
+    siteUrl = 'https://github.com/imjaspreet/Android-Keyboard-Helper'
+    gitUrl = 'https://github.com/imjaspreet/Android-Keyboard-Helper.git'
 
-    libraryVersion = '0.9.1'
+    libraryVersion = '1.0.0'
 
     developerId = 'imjaspreet'
     developerName = 'jaspreet singh'
@@ -55,3 +55,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
