@@ -55,7 +55,7 @@ dependencies {
 }
 ```
 
-## Thanks to
+## Credit to
 -https://github.com/AzimoLabs
 
 ## License
